@@ -50,12 +50,13 @@ body{
 }
 #slika2 {
     height: 300px;
-    margin-left: -250px;
+    width: 512px;
     padding-top: 250px;
+
 }
 #slika3 {
     height: 300px;
-    margin-right: -140px;
+    width: 512px;
     padding-top: 250px;
 }
 #h1 {
@@ -194,7 +195,7 @@ footer {
 .g1 {
     color: rgb(88,101,242);
     list-style-type: none;
-    padding: 30px;
+    padding: 30px 30px 30px 10px;
 }
 .l1 {
     color: rgb(255,255,255);
@@ -208,4 +209,7 @@ footer {
 #div11 {
     height: 100px;
     background-color: rgb( 35, 39, 42);
+}
+#shadow {
+    display: none;
 }
