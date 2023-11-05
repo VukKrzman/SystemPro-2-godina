@@ -1,18 +1,22 @@
 <html>
     <head>
-        <title>Prvi sajt</title>
+        <title>Discord | Your Place to Talk and Hang Out</title>
+        <link rel="icon" type="image/x-icon" href="images.png">
         <link rel="stylesheet" href="style.css">
+       
     </head>
     <body>
-
         <div id="shadow">
             <div id="popup">
-                
+                <h2 id="popupnaslov">If you don`t have an account, click Sign up</h2>
+                <button class="b5">Sign up</button>
+                <h2>Have Account? Click Log In</h2>
+                <button class="b5">Log In</button>
             </div>
         </div>
 
         <nav id="navigacija1">
-            <img id="slika1" src="Discord-logo.png" alt="discord logo">
+            <img id="slika1" src="discord-new-2021-logo-45D326F28C-seeklogo.com.png" alt="discord logo">
             <a class="a1" href="#">Download</a>
             <a class="a1" href="#">Nitro</a>
             <a class="a1" href="#">Discover</a>
@@ -122,5 +126,19 @@
             </div>
         </footer>
         <div id="div11"></div>
+        <script>
+            let shadow=document.getElementById("shadow");
+            shadow.addEventListener("click",click);
+
+            function click(){
+                shadow.style.display="none";
+            }
+
+            let popup=document.getElementById("popup");
+            popup.addEventListener("click",none);
+            function none(){
+
+            }
+        </script>
     </body>
 </html>
