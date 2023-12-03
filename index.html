@@ -1,144 +1,319 @@
 <html>
     <head>
-        <title>Discord | Your Place to Talk and Hang Out</title>
-        <link rel="icon" type="image/x-icon" href="images.png">
+        <title>YouTube</title>
         <link rel="stylesheet" href="style.css">
-       
+        <link rel="icon" type="image/x-icon" href="ytlogo.png">
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.17/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <div id="shadow">
-            <div id="popup">
-                <h2 id="popupnaslov">If you don`t have an account, click Sign up</h2>
-                <button class="b5">Sign up</button>
-                <h2>Have Account? Click Log In</h2>
-                <button class="b5">Log In</button>
+        <div role="alert" class="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span>we use cookies for no reason.</span>
+            <div>
+              <button class="btn btn-sm">Deny</button>
+              <button class="btn btn-sm btn-primary">Accept</button>
             </div>
-        </div>
-
-        <nav id="navigacija1">
-            <img id="slika1" src="discord-new-2021-logo-45D326F28C-seeklogo.com.png" alt="discord logo">
-            <a class="a1" href="#">Download</a>
-            <a class="a1" href="#">Nitro</a>
-            <a class="a1" href="#">Discover</a>
-            <a class="a1" href="#">Safety</a>
-            <a class="a1" href="#">Support</a>
-            <a class="a1" href="#">Blog</a>
-            <a class="a1" href="#">Careers</a>
-            <div class="div"></div>
-            <button id="b1">Login</button>
-        </nav>
-        <section id="s1">
-            <img id="slika2" src="8a8375ab7908384e1fd6efe408284203-removebg-preview.png" alt="slika2">
-            <div id="d2">
-                <h1 id="h1">IMAGINE A PLACE...</h1>
-                <p class="p1">...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
-                <button id="b2">Download for Windows</button>
-                <button id="b3">Open Discord in your browser</button>
+          </div>
+        <header class="flex border-b-[3px]">
+            <div class="dropdown dropdown-bottom">
+                <div tabindex="0" role="button" class="btn m-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </div>
+                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 text-xl">
+                  <li><a>Home</a></li>
+                  <li><a>Shorts</a></li>
+                  <li><a>Subscriptions</a></li>
+                  <li><a>You</a></li>
+                  <li><a>History</a></li>
+                  <li><a>Trending</a></li>
+                  <li><a>Music</a></li>
+                  <li><a>Gaming</a></li>
+                  <li><a>Sports</a></li>
+                  <li><a>Browse channels</a></li>
+                  <li><a>Settings</a></li>
+                  <li><a>Help</a></li>
+                </ul>
+              </div>
+                <div class="flex-1 p-1">
+                  <a class="btn btn-ghost text-xl">
+                    <img class="object-cover p-2" id="logo1" src="hd-youtube-logo-png-transparent-background-20.png" alt="ytlogo">
+                  </a>
+                </div>
+                <input type="text" placeholder="Search" class="input w-full max-w-xs rounded-full mr-80 mt-2" />
+                <div class="flex-none">
+                  <button class="btn btn-square btn-ghost mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-7 h-7 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+                  </button>
+                </div>
+              </div>
+              <button class="btn btn-outline btn-info mr-10 ml-10 mt-2 mb-2 rounded-full ">Sign In</button>
+              <label class="flex cursor-pointer gap-2 mt-5 mr-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+                <input type="checkbox" value="synthwave" class="toggle theme-controller"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+              </label>
+        </header>
+        <h1 class="text-6xl text-center p-4 font-bold">Tranding:</h1>
+        <section class="flex flex-wrap place-content-around mt-5">
+            <div class="card w-66 p-10 bg-base-100 shadow-xl hover:opacity-60 hover:cursor-pointer">
+                <figure><img src="https://source.unsplash.com/300x200" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    <div class="avatar">
+                        <div class="w-10 rounded-full ">
+                          <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                      </div>
+                    Naslov
+                    <div class="badge badge-secondary">Tranding</div>
+                </h2>
+                <p>Random Video</p>
+                <p>
+                    <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title text-xl">Total Page Views</div>
+                      <div class="stat-value text-xl">564,400</div>
+                      <div class="stat-desc">21% more than last month</div>
+                    </div>  
+                  </div>
+                </p>
+                <div class="card-actions justify-end">
+                <div class="badge badge-outline">Channel</div> 
+                <div class="badge badge-outline">Like</div>
+                </div>
             </div>
-            <img id="slika3" src="c40c84ca18d84633a9d86b4046a91437__1_-removebg-preview.png" alt="slika3">
-        </section>
-        <section id="s2">
-            <div id="d3">
-                <img src="46b2132c01604c9493d558de444929f4.svg" alt="slika4">
             </div>
-            <div id="d4">
-                <h1 class="n1">Create an invite-only place where you belong</h1>
-                <p class="p2">Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
+            <div class="card w-66 p-10 bg-base-100 shadow-xl hover:opacity-60 hover:cursor-pointer">
+                <figure><img src="https://source.unsplash.com/300x200" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    <div class="avatar">
+                        <div class="w-10 rounded-full ">
+                          <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                      </div>
+                    Naslov
+                    <div class="badge badge-secondary">Tranding</div>
+                </h2>
+                <p>Random Video</p>
+                <p>
+                    <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title text-xl">Total Page Views</div>
+                      <div class="stat-value text-xl">1M+</div>
+                      <div class="stat-desc">112% more than last month</div>
+                    </div>  
+                  </div>
+                </p>
+                <div class="card-actions justify-end">
+                <div class="badge badge-outline">Channel</div> 
+                <div class="badge badge-outline">Like</div>
+                </div>
             </div>
-        </section>
-        <section id="s3">
-            <div id="d5">
-                <h1 class="n1">Where hanging out is easy</h1>
-                <p class="p2">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
             </div>
-            <div id="d6">
-                <img src="575a0322f3b36ca2fecb23ad2c6dd5ad.svg" alt="slika5">
+            <div class="card w-66 p-10 bg-base-100 shadow-xl hover:opacity-60 hover:cursor-pointer">
+                <figure><img src="https://source.unsplash.com/300x200" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    <div class="avatar">
+                        <div class="w-10 rounded-full ">
+                          <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                      </div>
+                    Naslov
+                    <div class="badge badge-secondary">Tranding</div>
+                </h2>
+                <p>Random Video</p>
+                <p>
+                    <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title text-xl">Total Page Views</div>
+                      <div class="stat-value text-xl">9,800</div>
+                      <div class="stat-desc">21% less than last month</div>
+                    </div>  
+                  </div>
+                </p>
+                <div class="card-actions justify-end">
+                <div class="badge badge-outline">Channel</div> 
+                <div class="badge badge-outline">Like</div>
+                </div>
             </div>
-        </section>
-        <section id="s4">
-            <div id="d7">
-                <img id="slika6" src="dd9f972ba06bc29f4e756091e2fc9812.svg" alt="slika6">
             </div>
-            <div id="d8">
-                <h1 class="n1">From few to a fandom</h1>
-                <p class="p2">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+            <div class="card w-66 p-10 bg-base-100 shadow-xl hover:opacity-60 hover:cursor-pointer">
+                <figure><img src="https://source.unsplash.com/300x200" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    <div class="avatar">
+                        <div class="w-10 rounded-full ">
+                          <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                      </div>
+                    Naslov
+                    <div class="badge badge-secondary">Tranding</div>
+                </h2>
+                <p>Random Video</p>
+                <p>
+                    <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title text-xl">Total Page Views</div>
+                      <div class="stat-value text-xl">232,000</div>
+                      <div class="stat-desc">14% more than last month</div>
+                    </div>  
+                  </div>
+                </p>
+                <div class="card-actions justify-end">
+                <div class="badge badge-outline">Channel</div> 
+                <div class="badge badge-outline">Like</div>
+                </div>
             </div>
-        </section>
-        <section id="s5">
-            <div id="d9">
-                <h1 class="n1">RELIABLE TECH FOR STAYING CLOSE</h1>
-                <p id="p2">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
             </div>
-            <div id="d10">
-                <img src="slika.svg" alt="slika7">
+            <div class="card w-66 p-10 bg-base-100 shadow-xl hover:opacity-60 hover:cursor-pointer">
+                <figure><img src="https://source.unsplash.com/300x200" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    <div class="avatar">
+                        <div class="w-10 rounded-full ">
+                          <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                      </div>
+                    Naslov
+                    <div class="badge badge-secondary">Tranding</div>
+                </h2>
+                <p>Random Video</p>
+                <p>
+                    <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title text-xl">Total Page Views</div>
+                      <div class="stat-value text-xl">89,400</div>
+                      <div class="stat-desc">21% more than last month</div>
+                    </div>  
+                  </div>
+                </p>
+                <div class="card-actions justify-end">
+                <div class="badge badge-outline">Channel</div> 
+                <div class="badge badge-outline">Like</div>
+                </div>
             </div>
-        </section>
-        <section id="s6">
-            <h2>Ready to start your journey?</h2>
-            <button id="b4">Download for Windows</button>
+            </div>
+            <div class="card w-66 p-10 bg-base-100 shadow-xl hover:opacity-60 hover:cursor-pointer">
+                <figure><img src="https://source.unsplash.com/300x200" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    <div class="avatar">
+                        <div class="w-10 rounded-full ">
+                          <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                      </div>
+                    Naslov
+                    <div class="badge badge-secondary">Tranding</div>
+                </h2>
+                <p>Random Video</p>
+                <p>
+                    <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title text-xl">Total Page Views</div>
+                      <div class="stat-value text-xl">10M+</div>
+                      <div class="stat-desc">340% more than last month</div>
+                    </div>  
+                  </div>
+                </p>
+                <div class="card-actions justify-end">
+                <div class="badge badge-outline">Channel</div> 
+                <div class="badge badge-outline">Like</div>
+                </div>
+            </div>
+            </div>
+            <div class="card w-66 p-10 bg-base-100 shadow-xl hover:opacity-60 hover:cursor-pointer">
+                <figure><img src="https://source.unsplash.com/300x200" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    <div class="avatar">
+                        <div class="w-10 rounded-full ">
+                          <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                      </div>
+                    Naslov
+                    <div class="badge badge-secondary">Tranding</div>
+                </h2>
+                <p>Random Video</p>
+                <p>
+                    <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title text-xl">Total Page Views</div>
+                      <div class="stat-value text-xl">690,700</div>
+                      <div class="stat-desc">52% more than last month</div>
+                    </div>  
+                  </div>
+                </p>
+                <div class="card-actions justify-end">
+                <div class="badge badge-outline">Channel</div> 
+                <div class="badge badge-outline">Like</div>
+                </div>
+            </div>
+            </div>
+            <div class="card w-66 p-10 bg-base-100 shadow-xl hover:opacity-60 hover:cursor-pointer">
+                <figure><img src="https://source.unsplash.com/300x200" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    <div class="avatar">
+                        <div class="w-10 rounded-full ">
+                          <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                      </div>
+                    Naslov
+                    <div class="badge badge-secondary">Tranding</div>
+                </h2>
+                <p>Random Video</p>
+                <p>
+                    <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title text-xl">Total Page Views</div>
+                      <div class="stat-value text-xl">89,400</div>
+                      <div class="stat-desc">3% more than last month</div>
+                    </div>  
+                  </div>
+                </p>
+                <div class="card-actions justify-end">
+                <div class="badge badge-outline">Channel</div> 
+                <div class="badge badge-outline">Like</div>
+                </div>
+            </div>
+            </div>
         </section>
         <footer>
-            <div>
-                <ul>
-                    <li class="g1">Product</li>
-                    <li class="l1">Download</li>
-                    <li class="l1">Nitro</li>
-                    <li class="l1">Status</li>
-                    <li class="l1">App Directory</li>
-                </ul> 
-            </div>
-            <div>
-                <ul>
-                    <li class="g1">Company</li>
-                    <li class="l1">About</li>
-                    <li class="l1">Jobs</li>
-                    <li class="l1">Brand</li>
-                    <li class="l1">Newsroom</li>
-                    <li class="l1">Full Release</li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="g1">Resources</li>
-                    <li class="l1">College</li>
-                    <li class="l1">Support</li>
-                    <li class="l1">Safety</li>
-                    <li class="l1">Blog</li>
-                    <li class="l1">Feedback</li>
-                    <li class="l1">Developers</li>
-                    <li class="l1">StreamKit</li>
-                    <li class="l1">Creators</li>
-                    <li class="l1">Community</li>
-                    <li class="l1">Official 3rd Party Merch</li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li class="g1">Policies</li>
-                    <li class="l1">Terms</li>
-                    <li class="l1">Privacy</li>
-                    <li class="l1">Cookie Settings</li>
-                    <li class="l1">Guidelines</li>
-                    <li class="l1">Acknowledgements</li>
-                    <li class="l1">Licenses</li>
-                    <li class="l1">Company Information</li>
-                </ul>
-            </div>
+            <div class="btm-nav">
+                <button class="hover:opacity-60">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+                  <span class="btm-nav-label">Home</span>
+                </button>
+                <button class="active hover:opacity-60">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                  <span class="btm-nav-label">Warnings</span>
+                </button>
+                <button class="hover:opacity-60">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
+                  <span class="btm-nav-label">Statics</span>
+                </button>
+              </div>
         </footer>
-        <div id="div11"></div>
-        <script>
-            let shadow=document.getElementById("shadow");
-            shadow.addEventListener("click",click);
-
-            function click(){
-                shadow.style.display="none";
-            }
-
-            let popup=document.getElementById("popup");
-            popup.addEventListener("click",none);
-            function none(){
-
-            }
-        </script>
     </body>
+    <script>
+        var videoPlayer = document.getElementById('videoPlayer');
+    
+        // Auto play, half volume.
+        videoPlayer.play()
+        videoPlayer.volume = 0.5;
+    
+        // Play / pause.
+        videoPlayer.addEventListener('click', function () {
+            if (videoPlayer.paused == false) {
+                videoPlayer.pause();
+                videoPlayer.firstChild.nodeValue = 'Play';
+            } else {
+                videoPlayer.play();
+                videoPlayer.firstChild.nodeValue = 'Pause';
+            }
+        });
+    </script>
 </html>
