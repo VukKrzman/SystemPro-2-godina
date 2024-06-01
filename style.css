@@ -1,5 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
 
-#logo1 {
-    height: 50px;
-    width: 75px;
+canvas {
+    display: block;
+    position: absolute;
+}
+#centar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 40%; /* Adjust the width to make the cards wider */
+    max-width: 600px; /* Adjust the max width to control the overall layout */
+}
+.kartica{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 0 calc(33.333% - 20px); /* Flex basis to account for gap */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    height: 150px; /* Adjust the height to make the cards narrower */
 }
